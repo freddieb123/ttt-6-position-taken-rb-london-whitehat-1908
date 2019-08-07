@@ -4,4 +4,5 @@ def position_taken?(board, index)
   case board[index]
     when "X" return true
   end
+  false
 end
